@@ -12,20 +12,22 @@ Araç Data Merkezi, Türkiye için hazırlanmış ücretsiz bir Chrome eklentisi
 
 This repository is the public home for Araç Data Merkezi documentation, release notes and the issue tracker. The extension itself is distributed through the Chrome Web Store.
 
-## Ne gösterir?
+## Panelde ne var?
 
-- **Piyasa ortalaması:** aynı donanım ve aynı versiyondaki araçların ortalama fiyatı. 1.4 ile 1.6 aynı araç sayılmaz.
-- **Hasar ve boya etkisi:** boyalı ve değişen parçaların fiyatı nasıl değiştirdiği, kalem kalem
-- **Motor bilgisi:** o motor ailesinin bilinen kronik sorunları
-- **Kontrol listesi:** aracı görmeye gitmeden önce bakılacaklar
-- Emin olmadığında rakam uydurmaz, sessiz kalır
-- Yalnızca açtığınız ilanı okur
+Dört sekme, dört ayrı soru:
+
+- **Fiyat:** aynı donanım ve aynı versiyondaki araçların güncel piyasa ortalaması; ardından bu aracın kilometresine ve hasarına göre düzeltilmiş değer. 1.4 ile 1.6 aynı araç sayılmaz.
+- **Durum:** boyalı ve değişen parçaların fiyatı nasıl etkilediği, kalem kalem ve yüzde olarak
+- **Motor:** o motor ailesinin bilinen sorunları
+- **Kontrol:** satıcı için kontrol listesi
+
+Veri yetersizse rakam gösterilmez; eklenti tahmin uydurmaz. Yalnızca açtığınız ilanı okur.
 
 ## Nasıl kullanılır?
 
-1. Eklentiyi [Chrome Web Mağazası](https://chromewebstore.google.com/detail/khjccfkimgphbfgljnnhiifgkaodfjeo?utm_source=github&utm_medium=readme&utm_campaign=arac_data_merkezi) üzerinden kurun.
-2. Sahibinden'de bir otomobil ilanı açın.
-3. Panel ilan sayfasının içinde açılır. Fiyat, Durum, Motor ve Kontrol sekmelerine bakın.
+1. Eklentiyi [Chrome Web Mağazası](https://chromewebstore.google.com/detail/khjccfkimgphbfgljnnhiifgkaodfjeo?utm_source=github&utm_medium=readme&utm_campaign=arac_data_merkezi) üzerinden kurun. Chrome, Edge, Brave, Opera ve Vivaldi'de çalışır.
+2. Sahibinden'de bir otomobil ilanı açın. Sağ alt köşede sarı bir düğme belirir.
+3. Düğmeye tıklayın ve paneli okuyun.
 
 Ayrıntılı anlatım ve sık sorulan sorular [eklenti sayfasında](https://www.addonschrome.com/extensions/arac-data-merkezi-used-car-valuation-damage-check-for-sahibinden.html?utm_source=github&utm_medium=readme&utm_campaign=arac_data_merkezi).
 
